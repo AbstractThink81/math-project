@@ -1,0 +1,110 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "ParabolaWidget",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "minX",
+                    "notify": "updateDisplay",
+                    "read": "minX",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMinX"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "maxX",
+                    "notify": "updateDisplay",
+                    "read": "maxX",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMaxX"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "minY",
+                    "notify": "updateDisplay",
+                    "read": "minY",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMinY"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "maxY",
+                    "notify": "updateDisplay",
+                    "read": "maxY",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMaxY"
+                }
+            ],
+            "qualifiedClassName": "ParabolaWidget",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "minX",
+                            "type": "int"
+                        },
+                        {
+                            "name": "maxX",
+                            "type": "int"
+                        },
+                        {
+                            "name": "minY",
+                            "type": "int"
+                        },
+                        {
+                            "name": "maxY",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setDisplay",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ParabolaWidget.h",
+    "outputRevision": 68
+}

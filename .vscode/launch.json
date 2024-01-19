@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}\\release\\math-project.exe",
+            "program": "${workspaceFolder}\\debug\\math-project.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
